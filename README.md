@@ -4,7 +4,7 @@ Current build can be viewed in `dist/index.html`
 
 This project is assembled with webpack, to run the dev server locally you will have to follow these steps:
 
-1) Install node using [official site](https://nodejs.org/en/). 
+1) Install node using [official site](https://nodejs.org/en/). Version (LTS or latest) is not important.
 
    after the installation check if it was successfull with `node -v` and `npm -v` commands in your terminal or command line
    
