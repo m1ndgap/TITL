@@ -339,25 +339,25 @@ template {
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Regular.woff2) format("woff2"), url(../fonts/OpenSans-Regular.woff) format("woff");
+  font-family: "Barlow";
+  src: url(../fonts/Barlow-Regular.woff2) format("woff2"), url(../fonts/Barlow-Regular.woff) format("woff");
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url(../fonts/OpenSans-SemiBold.woff2) format("woff2"), url(../fonts/OpenSans-SemiBold.woff) format("woff");
+  font-family: "Barlow";
+  src: url(../fonts/Barlow-SemiBold.woff2) format("woff2"), url(../fonts/Barlow-SemiBold.woff) format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Bold.woff2) format("woff2"), url(../fonts/OpenSans-Bold.woff) format("woff");
+  font-family: "Barlow";
+  src: url(../fonts/Barlow-Bold.woff2) format("woff2"), url(../fonts/Barlow-Bold.woff) format("woff");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Italic.woff2) format("woff2"), url(../fonts/OpenSans-Italic.woff) format("woff");
+  font-family: "Barlow";
+  src: url(../fonts/Barlow-Italic.woff2) format("woff2"), url(../fonts/Barlow-Italic.woff) format("woff");
   font-style: italic;
 }
 html {
@@ -367,7 +367,7 @@ html {
 body {
   box-sizing: border-box;
   background-color: #222326;
-  font-family: sans-serif;
+  font-family: "Barlow", sans-serif;
   height: 200vh;
   width: 100%;
   display: -webkit-box;
@@ -468,7 +468,7 @@ main {
   }
 }
 .contact-us__link {
-  font-family: "Open Sans";
+  font-family: "Barlow";
   font-size: 1.8rem;
   color: #ffffff;
   text-decoration: none;
