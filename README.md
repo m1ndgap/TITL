@@ -18,3 +18,8 @@ This project is assembled with webpack, to run the dev server locally you will h
    * `npm start`
    
    This should open the website in a separate default browser tab. 
+
+
+-------------------
+
+`git subtree push --prefix dist origin gh-pages` to push `dist` folder to be displayed on git pages
