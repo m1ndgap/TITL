@@ -524,10 +524,6 @@ main {
   fill: transparent;
 }
 
-.svg-color-fill path {
-  fill: #ffffff !important;
-}
-
 #cursor {
   position: absolute;
   top: -17px;
@@ -537,4 +533,22 @@ main {
   fill: none;
   stroke: #ffffff;
   stroke-width: 2px;
+}
+
+#chat {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+#chat .chat-1 {
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 1px;
+  -webkit-transition: fill 200ms;
+  transition: fill 200ms;
+}
+#chat .chat-2 {
+  fill: #222326;
+  stroke: #222326;
+  stroke-width: 1px;
 }
