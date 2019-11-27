@@ -362,13 +362,14 @@ template {
 }
 html {
   font-size: 62.5%;
+  cursor: none;
 }
 
 body {
+  position: relative;
   box-sizing: border-box;
   background-color: #222326;
   font-family: "Barlow", sans-serif;
-  height: 200vh;
   width: 100%;
   display: -webkit-box;
   display: flex;
@@ -447,6 +448,10 @@ main {
 
 .contact-us {
   padding-bottom: 3px;
+  cursor: none;
+}
+.contact-us a {
+  cursor: none;
 }
 .contact-us::after {
   display: block;
@@ -498,4 +503,38 @@ main {
     font-size: 1.2rem;
     line-height: 1.8;
   }
+}
+
+.cursor {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#titl {
+  position: absolute;
+  top: -60px;
+  left: -85px;
+}
+#titl path {
+  stroke: #ffffff;
+  stroke-width: 2px;
+  -webkit-transition: fill 300ms;
+  transition: fill 300ms;
+  fill: transparent;
+}
+
+.svg-color-fill path {
+  fill: #ffffff !important;
+}
+
+#cursor {
+  position: absolute;
+  top: -17px;
+  left: -17px;
+}
+#cursor path {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2px;
 }
