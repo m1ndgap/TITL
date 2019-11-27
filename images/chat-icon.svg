@@ -1,4 +1,9 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="38" height="38" fill="white" stroke="white" stroke-width="2"/>
-<path d="M7 9.03772V26.3033H11.4627V32.9623L20.7946 26.3033H33V9.03772H7ZM17.3837 18.2787H15.8624V16.7574H17.3837V18.2787ZM20.7607 18.2787H19.2393V16.7574H20.7607V18.2787ZM24.1376 18.2787H22.6163V16.7574H24.1376V18.2787Z" fill="#222326"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" d="M1,1h38v38H1V1z"/>
+<path fill="#222326" d="M7,9.038v17.265h4.463v6.66l9.332-6.66H33V9.038H7z M17.384,18.279h-1.521v-1.521h1.521V18.279z
+	 M20.761,18.279h-1.521v-1.521h1.521V18.279z M24.138,18.279h-1.521v-1.521h1.521V18.279z"/>
 </svg>
