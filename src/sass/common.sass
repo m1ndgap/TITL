@@ -1,11 +1,12 @@
 html
   font-size: 62.5%
+  cursor: none
 
 body
+  position: relative
   box-sizing: border-box
   background-color: $base-color
   font-family: 'Barlow', sans-serif
-  height: 200vh
   width: 100%
   display: flex
   padding-left: 170px
@@ -51,6 +52,9 @@ main
 
 .contact-us
   padding-bottom: 3px
+  cursor: none
+  a
+    cursor: none
   &::after
     display: block
     content: ''
@@ -89,3 +93,33 @@ main
     padding-right: 20px
     font-size: 1.2rem
     line-height: 1.8
+
+
+.cursor
+  position: absolute
+  pointer-events: none
+  z-index: 10
+
+#titl
+  position: absolute
+  top: -60px
+  left: -85px
+  path
+    stroke: $light-text
+    stroke-width: 2px
+    transition: fill 300ms
+    fill: transparent
+
+.svg-color-fill
+  path
+    fill: $light-text !important
+
+#cursor
+  position: absolute
+  top: -17px
+  left: -17px
+  path
+    fill: none
+    stroke: $light-text
+    stroke-width: 2px
+
