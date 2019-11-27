@@ -4,6 +4,10 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
 <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" d="M1,1h38v38H1V1z"/>
-<path fill="#222326" d="M7,9.038v17.265h4.463v6.66l9.332-6.66H33V9.038H7z M17.384,18.279h-1.521v-1.521h1.521V18.279z
-	 M20.761,18.279h-1.521v-1.521h1.521V18.279z M24.138,18.279h-1.521v-1.521h1.521V18.279z"/>
+<path fill="#222326" d="M6.625,9.038v17.265h4.463v6.66l9.332-6.66h12.205V9.038H6.625z"/>
+<g>
+	<path fill="#FCFCFC" d="M16.564,18.813H14.2v-2.479h2.365V18.813z"/>
+	<path fill="#FCFCFC" d="M21.182,18.813h-2.364v-2.479h2.364V18.813z"/>
+	<path fill="#FCFCFC" d="M25.801,18.813h-2.365v-2.479h2.365V18.813z"/>
+</g>
 </svg>
