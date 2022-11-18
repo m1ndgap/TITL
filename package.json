@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/m1ndgap/TITL#readme",
   "dependencies": {
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
